@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="formChecker.js"></script>
+    <title>Oline Chocolate Store</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Oline Chocolate Store</h1>
+    
+    </div>
+
+
+    <form action="customerBackend.php" method="post" onsubmit="return validatecheck(event)">
+        <div class="users">
+            <h3>Customer Information</h3>
+            Username: <input type="email" id="email" name="email"><br>
+            Password: <input type="text" id="password" name="password"><br>
+
+        </div>
+        <br>
+        <div class="first">
+            <img src="4.jpeg" height="30%" width="15%" align="middle"><br>
+            <p1>Milk Chocolate</p1><br>
+            <p>$4.99/bag</p>
+            How many do you want?<br>
+            <input type="text" id="firstit" name="one"value="0" > Bags<br>
+        </div>
+        <br>
+        <div class="second">
+            <img src="1.jpg" height="30%" width="15%" align="middle"><br>
+            <p1>Chocolate Ice Cream</p1><br>
+            <p>$2.99/pack</p>
+            How much you want ?<br>
+            <input type="text" id="secondit" name="two" value="0"> Packs<br>
+        </div>
+        <br>
+        <div class="thrid">
+            <img src="2.jpg" height="30%" width="15%" align="middle"><br>
+            <p>Chocolate Tarts</p>
+            <p>$8.99/pack</p>
+            How much you want ?<br>
+            <input type="text" id="thirdit" name="three" value="0"> Packs<br>
+        </div>
+        <br>
+        <div class="fith">
+            <img src="3.jpg" height="30%" width="15%" align="middle"><br>
+            <p1>Strawberry Chocolate</p1>
+            <p>$10.99/box</p>
+            How much you want ?<br>
+            <input type="text" id="fithit" name="four"value="0"> Boxs<br>
+        </div>
+        <br>
+        <div class="deliver">
+            <input type="radio" name="opd" value="Free 7 day">Free 7 day<br>
+            <input type="radio" name="opd" value="$5.00 three day">$5.00 three day<br>
+            <input type="radio" name="opd" value="$50.00 over night">$50.00 over night<br>
+        </div>
+        <br>
+        <input type="submit" value="Submit Order">
+        <input type="reset" value="Reset Order List">
+    </form>
+
+</body>
+
+</html>

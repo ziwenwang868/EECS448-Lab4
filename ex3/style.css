@@ -1,0 +1,69 @@
+div.first
+{
+    background-color: aliceblue;
+    
+}
+div.second
+{
+    background-color: aqua;
+}
+div.thrid
+{
+    background-color: bisque;
+}
+div.fith
+{
+    background-color: azure;
+}
+body
+{
+    text-align: center;
+}
+p1
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+p
+{
+    font-weight: bold;
+}
+table {
+    margin: auto;
+    text-align: center;
+}
+th.col1
+{
+    background-color: aqua;
+    
+}
+th.col2
+{
+    background-color: aqua;
+}
+th.col3
+{
+    background-color: aqua;
+}
+th.col4
+{
+    background-color: aqua;
+}
+th.col5
+{
+    background-color: aqua;
+}
+tr.row1
+{
+    background-color: aqua;
+}
+tr.row2
+{
+    background-color: azure;
+}
+tr.row0
+{
+    text-align: center;
+}
+
